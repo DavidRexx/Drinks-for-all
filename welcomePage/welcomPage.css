@@ -1,0 +1,108 @@
+/* .hello {
+    margin: 50%;
+    position: absolute;
+    color: purple;
+}
+
+.simpson {
+    width: 100%;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.nav{
+    width: 100%;
+    background-color: #000033;
+    height: 80px;
+
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 20px;
+}
+ul li a{
+    width: 150px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Century;
+    font-weight: bold;
+}
+    a:hover{
+        background: #669900;
+    }
+ul li ul{
+background: 000033;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+
+html, body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2
+}
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://www.macintuts.com/wp-content/uploads/hawaii.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0%;
+}
+.intro .inner{
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+.content{
+     max-width: 500px;
+     margin: auto;
+     text-align: center;
+
+}
+.content h1{
+    font-family:kalam;
+    color: #f9f3f4;
+    font-size: 500%;
+    text-transform: uppercase;
+}
+.btn{
+    border-radius: 25px;
+    color: #fff;
+    font-size: 135%;
+    padding: 15px 20px 15px 20px;
+    border: solid #fff 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn: hover{
+    border: solid #fff 3px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 122%;
+    line-height: 
+}
