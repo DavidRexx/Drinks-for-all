@@ -9,7 +9,20 @@
 } */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@media only screen and (min-width: 1000px){
+    /* ul li a{
+        width: 150px;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Century;
+        font-weight: bold;
+    } */
+}
 .nav{
     width: 100%;
     background-color: #000033;
@@ -21,28 +34,31 @@ ul{
     padding: 0%;
     margin: 0%;
     position: absolute;
+    
 }
 ul li{
     float: left;
     margin-top: 20px;
+    width: fit-content;
 }
 ul li a{
-    width: 150px;
+    width: 100%;
     color: #fff;
     display: block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    padding: 10px;
+    padding: 4.5px;
     border-radius: 10px;
     font-family: Century;
     font-weight: bold;
 }
     a:hover{
-        background: #669900;
+        background: #18024b;
     }
 ul li ul{
-background: 000033;
+background: #000033;
+
 }
 ul li ul li{
     float: none;
