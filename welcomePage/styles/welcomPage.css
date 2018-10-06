@@ -114,7 +114,7 @@ max-width: none;
     text-decoration: none;
     text-transform: uppercase;
 }
-.btn: hover{
+.btn:hover{
     border: solid #fff 3px;
 }
 p{

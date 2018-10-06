@@ -1,0 +1,55 @@
+body{
+    background-image: url(../images/img\ \(2\).jpeg);
+    background-size: 100% 700px ;
+    background-repeat: no-repeat;
+}
+.form-page{
+    text-align: center;
+    margin: 100px 400px;
+
+}
+#registration{
+    width: 100%;
+    background-color: rgb(146, 141, 141);
+    opacity: 0.7;
+    padding: 50px 0px;
+    border-radius: 70px
+
+}
+#button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    outline: 0px;
+
+}
+#ph{
+    padding: 10px;
+    border-radius: 5px;
+    width: 5px;
+}
+#phone{
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    outline: 0px;
+}
+#but{
+    color: rgb(5, 5, 0);
+    font-size: 18px;
+
+}
+#rd{
+color: #d4d0d0;
+}
+#button{
+    width: 250px;
+    background-color: #d4d0d0;
+    color: rgb(59, 35, 3);
+    border-radius: 5px;
+    border: 2px solid #0a0a22;
+    font-size: 18px;
+
+
+}
+
